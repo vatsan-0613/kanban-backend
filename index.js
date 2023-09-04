@@ -7,7 +7,7 @@ const cors = require("cors");
 app.use(express.json());
 
 const corsOptions = {
-  origin: 'http://localhost:5173', // Replace with the actual origin of your frontend application
+  origin: 'https://kanban-backend-epgo.onrender.com', // Replace with the actual origin of your frontend application
   optionsSuccessStatus: 200, // Some legacy browsers (IE11) may not understand 204
 };
 
