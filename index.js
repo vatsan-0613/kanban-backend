@@ -15,7 +15,7 @@ app.use(cors(corsOptions));
 
 
 const mongodbURI =
-  "mongodb+srv://srivatsan:gL2PeXtFCsLXbIfC@cluster0.xd31wsk.mongodb.net/kanban?retryWrites=true&w=majority";
+  "mongodb+srv://vatsan_0613:qdLty3YxISmmhmPn@cluster0.xd31wsk.mongodb.net/todo?retryWrites=true&w=majority&appName=Cluster0";
 
 mongoose
   .connect(mongodbURI, {
